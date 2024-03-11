@@ -20,7 +20,10 @@ jobs:
           node-version: "18.x"
           registry-url: 'https://registry.npmjs.org'
           
-      - name: NPM Install
+      - name: NPM Install 
+        run: npm install 
+        
+      - name: NPM CI
         run: npm ci
         
       - name: NPM Publish
