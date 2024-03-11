@@ -1,8 +1,9 @@
+@use "sass:math";
 //background-color: white;
 $theme-colors: ( "primary": $primary, "secondary": $secondary, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "light": $light, "dark": $dark ) !default;
 $min-contrast-ratio: 4.5 !default;
 $input-focus-border-color: tint-color($primary, 50%) !default;
-$body-bg: white;
+$body-bg: #ffffff;
 $input-bg: $body-bg !default;
 
 $border-color: $gray-100;
@@ -477,6 +478,7 @@ button#dropdownMenuButton:focus {
 
 .node-items:hover .node_dot {
     background-color: $primary;
+    z-index: 9;
 }
 
 .node_dot {
@@ -2207,8 +2209,8 @@ html #sidebar ul li a.active small {
 }
 
 .form-select {
-    background-color: $form-select-bg1;
-    border-color: $form-select-border-color1;
+    background-color: $body-bg;
+    border-color: $gray-300;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
 }
 
@@ -2466,6 +2468,12 @@ input::placeholder {
     color: #cccccc !important;
 }
 
+.css-1xc3v61-indicatorContainer svg {
+    stroke: #cccccc;
+    color: #cccccc;
+    fill: #cccccc;
+}
+
 #react-select-3-listbox {
     background-color: $body-bg;
     color: $black;
@@ -2637,23 +2645,52 @@ hr {
         filter: none;
     }
 }
-.raaghu-select__indicator svg {
+.raaghu-select__indicator .raaghu-not-select__indicator svg {
     stroke: $gray-800;
     fill: $gray-800;
     color: $gray-800;
     opacity: 0.5;
 }
-.raaghu-select__control--is-focused .raaghu-select__dropdown-indicator svg {
+.raaghu-select__control--is-focused .raaghu-select__dropdown-indicator .raaghu-not-select__control--is-focused .raaghu-not-select__dropdown-indicator svg {
     stroke: $gray-800;
     color: $gray-800;
     fill: $gray-800;
     opacity:0.5;
 }
+
 .lf-player-container {
     svg {
         stroke: none;
     }
 }
-.raaghu-select__single-value, .raaghu-select__placeholder {
-    color: var(--bs-body-color);
+.raaghu-select__single-value, .raaghu-not-select__single-value, .raaghu-not-select__placeholder  {
+    color: $gray-750;
 }
+ .raaghu-select__placeholder  {
+    color:$black ;
+}
+.node-label {
+    background-color: $body-bg;
+}
+@media (max-width: 767px) {
+    .node-label {
+        background-color: transparent;
+    }
+    .list-style {
+        li {
+            .leftSpace {
+                li {
+                    .main-list {
+                        background-color: $body-bg;
+                    }
+
+                    .leftSpace {
+                        .main-list {
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }

@@ -1,3 +1,4 @@
+@use "sass:math";
 //background-color: white;
 $theme-colors: ( "primary": $primary, "secondary": $secondary, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "light": $light, "dark": $dark ) !default;
 $min-contrast-ratio: 4.5 !default;
@@ -227,8 +228,12 @@ $offcanvas-bottom-border-color: $border-color !default;
 
 $bg-connect: $white;
 
-.lf-player-container {
-    filter: grayscale(1);
+// .lf-player-container {
+//     filter: grayscale(1);
+// }
+
+#aside .lf-player-container {
+    filter: brightness(0) invert(1);
 }
 
 .lf-player-container:hover {
@@ -462,12 +467,21 @@ button#dropdownMenuButton:focus {
     }
 }
 
+.navbar .lf-player-container{
+    filter: grayscale(1);
+}
+
+.navbar .lf-player-container:hover {
+    filter: none;
+}
+
 .node-items .node_dot {
     background-color: $secondary;
 }
 
 .node-items:hover .node_dot {
     background-color: $primary;
+    z-index: 9;
 }
 
 .node_dot {
@@ -622,6 +636,7 @@ button#dropdownMenuButton:focus {
         color: $gray-500;
     }
 }
+
 
 .table {
     border-color: $table-border-color;
@@ -1061,39 +1076,39 @@ a {
                     width: 22px;
                     height: 22px;
                     fill: none;
-                    stroke: $gray-700;
+                    stroke: $light-200;
                     transform: scale(0.8);
 
                     polyline.icon {
-                        stroke: $gray-700;
+                        stroke: $light-200;
                     }
 
                     polygon.icon {
-                        stroke: $gray-700;
+                        stroke: $light-200;
                     }
 
                     ellipse.icon {
-                        stroke: $gray-700;
+                        stroke: $light-200;
                     }
 
                     path.icon {
-                        stroke: $gray-700;
+                        stroke: $light-200;
                     }
 
                     line.icon {
-                        stroke: $gray-700;
+                        stroke: $light-200;
                     }
 
                     rect.icon {
-                        stroke: $gray-700;
+                        stroke: $light-200;
                     }
 
                     circle.icon {
-                        stroke: $gray-700;
+                        stroke: $light-200;
                     }
 
                     ellipse.icon {
-                        stroke: $gray-700;
+                        stroke: $light-200;
                     }
                 }
             }
@@ -2462,6 +2477,12 @@ input::placeholder {
     color: #cccccc !important;
 }
 
+.css-1xc3v61-indicatorContainer svg {
+    stroke: #cccccc;
+    color: #cccccc;
+    fill: #cccccc;
+}
+
 #react-select-3-listbox {
     background-color: $body-bg;
     color: $black;
@@ -2635,14 +2656,14 @@ hr {
     }
 }
 
-.raaghu-select__indicator svg {
+.raaghu-select__indicator .raaghu-not-select__indicator svg {
     stroke: $gray-800;
     fill: $gray-800;
     color: $gray-800;
     opacity: 0.5;
 }
 
-.raaghu-select__control--is-focused .raaghu-select__dropdown-indicator svg {
+.raaghu-select__control--is-focused .raaghu-select__dropdown-indicator .raaghu-not-select__control--is-focused .raaghu-not-select__dropdown-indicator svg {
     stroke: $gray-800;
     color: $gray-800;
     fill: $gray-800;
@@ -2654,6 +2675,34 @@ hr {
         stroke: none;
     }
 }
-.raaghu-select__single-value, .raaghu-select__placeholder {
-    color: var(--bs-body-color);
+.raaghu-select__single-value, .raaghu-not-select__single-value, .raaghu-not-select__placeholder {
+    color: $gray-750;
+}
+.raaghu-select__placeholder{
+    color:$black;
+}
+.node-label {
+    background-color: $body-bg;
+}
+@media (max-width: 767px) {
+    .node-label {
+        background-color: transparent;
+    }
+    .list-style {
+        li {
+            .leftSpace {
+                li {
+                    .main-list {
+                        background-color: $body-bg;
+                    }
+
+                    .leftSpace {
+                        .main-list {
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
