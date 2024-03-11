@@ -1,9 +1,14 @@
 $path: "../fonts/Poppins-Regular.ttf";
 
 @if import-exists($path) {
-  $path: "../fonts/";
-} @else {
-  $path: "../../../../raaghu-react-themes/public/fonts/";
+
+    $path: "../../../../raaghu-react-themes/public/fonts/";
+}
+
+
+
+@else {
+    $path: "../fonts/";
 }
 
 @if $path !="" {
@@ -1082,10 +1087,10 @@ a.nav-link.breadcrumb-navlink.active {
 
 .horizontal {
   height: 0rem;
-  width: 1.75rem;
+  width: 1.6rem;
   border-bottom: 1px dashed;
   position: relative;
-  right: 30px;
+  right: 27px;
   margin: none;
   top: 4px;
   z-index: 0;
@@ -1107,7 +1112,7 @@ a.nav-link.breadcrumb-navlink.active {
   width: 1.75rem;
   border-bottom: 1px dashed;
   position: relative;
-  right: 29px;
+  right: 28px;
   margin: none;
   top: 4px;
   z-index: 0;
@@ -1115,24 +1120,24 @@ a.nav-link.breadcrumb-navlink.active {
 
 .vertical {
   position: absolute;
-  left: -27px;
+  left: 5px;
   bottom: 0;
   top: 17px;
   width: 0.1875rem;
-  height: 108%;
+  height: 100%;
   border-right: 1px dashed;
   z-index: 0;
 }
 
 .verticall {
-  position: absolute;
-  left: -63px;
-  bottom: 0;
-  top: -25px;
-  width: 0.1875rem;
-  height: 150%;
-  border-right: 1px dashed;
-  z-index: 0;
+    position: absolute;
+    left: -27px;
+    bottom: 0;
+    top: -25px;
+    width: 0.1875rem;
+    height: 100%;
+    border-right: 1px dashed;
+    z-index: 0;
 }
 
 .verticalPermi {
@@ -1152,7 +1157,7 @@ a.nav-link.breadcrumb-navlink.active {
   /* bottom: 0px; */
   top: -25px;
   width: 0.1875rem;
-  height: 169%;
+  height: 155%;
   border-right: 1px dashed #adb5bd;
   z-index: -1;
 }
@@ -1167,9 +1172,29 @@ a.nav-link.breadcrumb-navlink.active {
   border-right: 1px dashed;
   z-index: 0;
 }
+.verticalNodefile{
+  position: absolute;
+  left: -31px;
+  bottom: 0;
+  top: -26px;
+  width: 0.1875rem;
+  height: 163%;
+  border-right: 1px dashed lightgray;
+  z-index: 0;
+}
+.verticalNodeSiblingfile{
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  top: 15px;
+  width: 0.1875rem;
+  height: 129%;
+  border-right: 1px dashed lightgray;
+  z-index: 0;
+}
 
 .unitName {
-  margin-left: -28px;
+  margin-left: 0px;
 }
 
 .member-count {
@@ -1399,8 +1424,8 @@ $size: 10;
   top: 0;
 }
 
-.table-responsive {
-  min-height: calc(100vh - 222px) !important;
+.table-responsive-none{
+  min-height: calc(100vh - 209px) !important;
 }
 
 .card-stretch .table-responsive {
@@ -2506,8 +2531,9 @@ rds-nav-tab {
 }
 
 .node-icon1 {
-  display: none;
-  transition: all 0.55s ease-in-out;
+    display: none;
+    margin-left: 1rem;
+    transition: all 0.55s ease-in-out;
 }
 
 #sidebar.toggle-sidebar-menu ul li a span {
@@ -2819,14 +2845,17 @@ figure.worldmap__figure-container {
 }
 .users {
     .dropdown-menu.show {
-        margin-left: 1.1rem !important;
+        margin-left:1.1rem !important;
     }
 }
 @media (max-width: 1024px) {
     .table-responsive {
         min-height: auto !important;
+        height: calc(100vh - 379px) !important;
     }
+
     .card.card-full-stretch {
         min-height: auto !important;
+        height: calc(100vh - 14px) !important;
     }
 }

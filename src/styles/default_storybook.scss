@@ -134,44 +134,44 @@ $default-100: #f58220;
 
 // /*Chart color variables*/
 :root {
-  --dark-150: #2D253D;
-  --chart-bool-color1: #e30707;
-  --chart-bool-color2: #ebeefb;
-  --chart-bubble-color1: #fa896b;
-  --chart-bubble-color2: #78f7b8;
-  --chart-area-color1: #fa896b;
-  --chart-area-color2: #78f7b8;
-  --chart-doughnut-color1: #0085d3;
-  --chart-doughnut-color2: #bf00bb;
-  --chart-doughnut-color3: #7e2eef;
-  --chart-doughnut-text-color: rgba(0, 0, 0, 100%);
-  --chart-bar-horizontal-color1: #fa896b;
-  --chart-bar-horizontal-color2: #78f7b8;
-  --chart-bar-horizontal-color: rgba(7, 150, 227, 5);
-  --chart-bar-horizontal-border-color: rgba(214, 66, 8);
-  --chart-line-color1: rgba(25, 70, 186, 0);
-  --chart-line-color2: rgba(48, 22, 194, 0);
-  --chart-line-color3: rgba(17, 80, 239, 0);
-  --chartColor7: #ebeefb;
-  --chartColor2: #bf00bb;
-  --chartColor3: #7e2eef;
-  --chartColor4: #0085d3;
-  --chartColor5: #5151d3;
-  --chartColor6: #edb371;
-  --chartColor1: #01ae9d;
-  --chartColor8: #f58220;
-  --chartColor9: #ea2745;
-  --chartColor10: #00ffe6;
-  --chartgradient1: rgba(63, 28, 255, 100%);
-  --chartgradient2: #863bff94;
-  --chartgradient3: rgba(56, 25, 226, 89%);
-  --chartgradient4: rgba(48, 22, 194, 76%);
-  --chartgradient5: rgba(25, 70, 186, 36%);
-  --chartgradient6: rgba(25, 70, 186, 26%);
-  --chartgradient7: rgba(25, 70, 186, 22%);
-  --chartgradient8: rgba(25, 70, 186, 16%);
-  --chartgradient9: rgba(25, 70, 186, 8%);
-  --chartgradient10: rgba(25, 70, 186, 1%);
+    --dark-150: #2D253D;
+    --chart-bool-color1: #e30707;
+    --chart-bool-color2: #ebeefb;
+    --chart-bubble-color1: #fa896b;
+    --chart-bubble-color2: #78f7b8;
+    --chart-area-color1: #fa896b;
+    --chart-area-color2: #78f7b8;
+    --chart-doughnut-color1: #0085d3;
+    --chart-doughnut-color2: #bf00bb;
+    --chart-doughnut-color3: #7e2eef;
+    --chart-doughnut-text-color: rgba(0, 0, 0, 100%);
+    --chart-bar-horizontal-color1: #fa896b;
+    --chart-bar-horizontal-color2: #78f7b8;
+    --chart-bar-horizontal-color: rgba(7, 150, 227, 5);
+    --chart-bar-horizontal-border-color: rgba(214, 66, 8);
+    --chart-line-color1: rgba(25, 70, 186, 0);
+    --chart-line-color2: rgba(48, 22, 194, 0);
+    --chart-line-color3: rgba(17, 80, 239, 0);
+    --chartColor7: #ebeefb;
+    --chartColor2: #bf00bb;
+    --chartColor3: #7e2eef;
+    --chartColor4: #0085d3;
+    --chartColor5: #5151d3;
+    --chartColor6: #edb371;
+    --chartColor1: #01ae9d;
+    --chartColor8: #f58220;
+    --chartColor9: #ea2745;
+    --chartColor10: #00ffe6;
+    --chartgradient1: rgba(63, 28, 255, 100%);
+    --chartgradient2: #863bff94;
+    --chartgradient3: rgba(56, 25, 226, 89%);
+    --chartgradient4: rgba(48, 22, 194, 76%);
+    --chartgradient5: rgba(25, 70, 186, 36%);
+    --chartgradient6: rgba(25, 70, 186, 26%);
+    --chartgradient7: rgba(25, 70, 186, 22%);
+    --chartgradient8: rgba(25, 70, 186, 16%);
+    --chartgradient9: rgba(25, 70, 186, 8%);
+    --chartgradient10: rgba(25, 70, 186, 1%);
 
 }
 
@@ -195,32 +195,32 @@ $card-darkborder-color: $gray-800 !default;
 $modal-bg-color: $dark-200 !default;
 
 html[theme="dark"] {
-  --chart-doughnut-text-color: #fff;
-  $input-bg: $dark-200 !default;
-  $input-bg-border: $dark-100 !default;
+    --chart-doughnut-text-color: #fff;
+    $input-bg: $dark-200 !default;
+    $input-bg-border: $dark-100 !default;
 
-  $dropdown-color: $white;
-  $input-group-addon-bg: $input-bg;
+    $dropdown-color: $white;
+    $input-group-addon-bg: $input-bg;
 
-  .form-control,
-  .form-control:focus {
-    background-color: $input-bg;
-    border: 1px solid $input-bg-border;
-    color: $white;
-  }
+    .form-control,
+    .form-control:focus {
+        background-color: $input-bg;
+        border: 1px solid $input-bg-border;
+        color: $white;
+    }
 
-  .dropdown-menu {
-    --bs-dropdown-color: $dropdown-color;
-  }
+    .dropdown-menu {
+        --bs-dropdown-color: $dropdown-color;
+    }
 
-  .input-group-text {
-    background-color: $input-group-addon-bg;
-    border-color: $input-bg-border;
-  }
+    .input-group-text {
+        background-color: $input-group-addon-bg;
+        border-color: $input-bg-border;
+    }
 }
 
 // @import "../../../raaghu-react-themes/public/fonts/Poppins-Regular.ttf";
-@import "./custom.scss";
+@import "./custom_storybook.scss";
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./responsive.scss";
 @import "./accordion.scss";
