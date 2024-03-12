@@ -6,7 +6,7 @@ permissions:
   contents: read
 jobs:
   build:
-    name: Publish
+    name: Build and Publish
     runs-on: ubuntu-latest
     timeout-minutes: 10 
     environment:
@@ -21,8 +21,10 @@ jobs:
           node-version: "18.x"
           registry-url: 'https://registry.npmjs.org'
           
-      - name: NPM Install 
-        run: npm install 
+      - name: NPM Install & Build
+        run: |
+          npm install
+          npm run build
         
       - name: NPM CI
         run: npm ci
