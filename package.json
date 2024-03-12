@@ -1,12 +1,28 @@
 {
   "name": "@waiin/raaghu-react-themes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Themes provides utility functions that are commonly used across Raaghu Projects by Wai Technologies",
+  "keywords": [
+    "react",
+    "vite",
+    "millionjs",
+    "raaghu", 
+    "rds-generator", 
+    "@waiin/raaghu-react", 
+    "raaghu-elements-themes", 
+    "raaghu-components-themes", 
+    "raaghu-layout-themes",
+    "raaghu-appshell-themes",
+    "wai-technologies",
+    "utility",
+    "common"
+  ],
   "author": {
     "name": "WAi Technologies",
     "email": "support@waiin.com",
     "url": "https://waiin.com"
   },
+  "homepage": "https://react.raaghu.io",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -62,7 +78,8 @@
     ]
   },
   "files": [
-    "build"
+    "build",
+    "static"
   ],
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
