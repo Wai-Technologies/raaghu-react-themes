@@ -1,6 +1,6 @@
 {
   "name": "@waiin/raaghu-react-themes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Themes provides utility functions that are commonly used across Raaghu Projects by Wai Technologies",
   "keywords": [
     "react",
