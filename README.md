@@ -5,19 +5,22 @@
 
 <p align="center">
   <a href="https://raaghu.io" target="_blank">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./static/banner-dark.png">
-      <source media="(prefers-color-scheme: light)" srcset="./static/banner-light.png">
-      <img alt="Banner" src="./static/banner-light.png">
-    </picture>
+    <p>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/banner-dark.png?raw=true">
+        <source media="(prefers-color-scheme: light)" srcset="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/banner-light.png?height=auto">
+        <img alt="Banner" src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/banner-light.png?height=auto"/>
+      </picture>
+    </p>
   </a>
-<p>
+</p>
+  
 <h1 style="border-bottom:0;">Contents</h1>
 
-- [What is raaghu](#raahghu-intro)
-- [Why raaghu?](#why)
-- [How raaghu works?](#how)
-- [Getting started with raaghu](#started)
+- [What is Raaghu?](#raaghu-intro)
+- [Why Raaghu?](#why)
+- [How Raaghu works?](#how)
+- [Getting Started with Raaghu](#started)
 - [Startup Templates](#templates)
 - [Build with](#build_with)
 - [License](#license)
@@ -26,28 +29,28 @@
 
 </br></br>
 
-## <a name='raahghu-intro'></a> What is raaghu
+## <a name='raaghu-intro'></a> What is Raaghu?
 
 <p>
-<b>raaghu</b> is an open source React based front-end design system leveraging micro front end capabilities that helps in building efficient, reliable and scalable front-end applications . Raaghu is built on top of raaghu elements as well as front end toolkit like <b>Bootstrap</b>, <b>storybook</b> offering highly customizable UI components and built in pages.
+<b>Raaghu</b> is an open source React based front-end design system leveraging micro front end capabilities that helps in building efficient, reliable and scalable front-end applications . Raaghu is built on top of raaghu elements as well as front end toolkit like <b>Bootstrap</b>, <b>storybook</b> offering highly customizable UI components and built in pages.
 </p>
 
-## <a name='why'></a> Why raaghu?
+## <a name='why'></a> Why Raaghu?
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./static/Features-new-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="./static/Features-new-light.png">
-    <img  alt="Features" src="./static/Features-new-light.png" width="1000"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/Features-new-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/Features-new-light.png">
+    <img  alt="Features" src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/Features-new-light.png" width="1000"/>
   </picture>
 </p>
 
-## <a name='how'></a> How raaghu works?
+## <a name='how'></a> How Raaghu works?
 
 </br></br></br>
 
 <p align="center">
-  <img src="./static/raaghu-illustration.png" alt="logo" width="600"/>
+  <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/raaghu-illustration.png" alt="logo" width="600"/>
 </p>
 <br/>
 <br/>
@@ -58,7 +61,7 @@ These components come together to create the same wireframe design and form a pa
 
 </p>
 
-## <a name='started'></a> Getting started with raaghu
+## <a name='started'></a> Getting Started with Raaghu
 
 - [Setup raaghu](https://raaghu.io): For development
 - [Development Support](https://raaghu.io): Create a common Library, Component, Screen / MFE etc
@@ -78,9 +81,9 @@ A collection of open-source statrter templates, Free templates that are perfect 
 </br>
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./static/templates-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="./static/templates-light.png">
-    <img src="./static/templates-light.png" alt="logo" width="1200"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/templates-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/templates-light.png">
+    <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/templates-light.png" alt="logo" width="1200"/>
   </picture> 
 </p>
  
@@ -95,46 +98,46 @@ Built on a robust tech stack and platform
   <tr>  
   <td>
     <a href="https://reactjs.org/">
-        <img src="./static/react.svg" width="80" title="React"/>
+        <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/react.svg" width="80" title="React"/>
     </td>
        <td>
         <a href="https://getbootstrap.com/">
-        <img src="./static/bootstrap.png" width="80" title="Bootstrap"/>
+        <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/bootstrap.png" width="80" title="Bootstrap"/>
     </td>
      </td>
        <td>
         <a href="https://www.typescriptlang.org/">
-        <img src="./static/logo_typescript.png" width="70" title="typescript"/>
+        <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/logo_typescript.png" width="70" title="typescript"/>
     </td>
     <td>
         <a href="https://storybook.js.org/">
-        <img src="./static/storybook.png" width="80" title="Storybook"/>
+        <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/storybook.png" width="80" title="Storybook"/>
     </td>
       <td>
         <a href="https://www.gatsbyjs.com/">
-        <img src="./static/gatsby.png" width="80" title="Gatsby"/>
+        <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/gatsby.png" width="80" title="Gatsby"/>
     </td>
   </tr>  
   <tr>
   <td>
-        <a href="https://www.aspnetzero.com/">
-        <img src="./static/aspnetzero.png" width="80" title="AspnetZero"/>
+        <a href="https://vitejs.dev/">
+        <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/vite.png" width="80" title="AspnetZero"/>
     </td>
         <td>
-        <a href="https://abp.io/">
-        <img src="./static/abpio.png" width="80" title="abpio"/>
+        <a href="https://million.dev/">
+        <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/millionjs.svg" width="80" title="abpio"/>
     </td>
      <td>
          <a href="https://www.adobe.com/in/products/xd.html?promoid=3NQZBBTZ&mv=other">
-         <img src="./static/xd.png" width="80" title="Adobe XD"/>
+         <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/xd.png" width="80" title="Adobe XD"/>
     </td>
      <td>
          <a href="https://www.figma.com/">
-         <img src="./static/figma.png" width="80" title="Figma"/>
+         <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/figma.png" width="80" title="Figma"/>
     </td>
      <td>
         <a href="https://visualstudio.microsoft.com/">
-        <img src="./static/visual-studio.png" width="80" title="Visual Studio"/>
+        <img src="https://raaghustorageaccount.blob.core.windows.net/raaghu-blob/visual-studio.png" width="80" title="Visual Studio"/>
     </td>
   </tr>
 </table> 
@@ -157,7 +160,7 @@ This project is licensed under the Apache License - see the [`LICENSE`](/LICENSE
 
 ## <a name='contributers'></a> WAi Technologies Contributors ✨
 
-Thanks goes to these wonderful people and Wai technology.
+Thanks goes to these wonderful people and WAi Technologies.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -182,7 +185,13 @@ Thanks goes to these wonderful people and Wai technology.
         <img src="https://avatars.githubusercontent.com/u/40684426?v=4" width="100" title="Kirti Kulkarni"/>
         <br />
       </a>
-    </td>  
+    </td>
+    <td>
+      <a href="https://github.com/kaushikgokhale">
+        <img src="https://avatars.githubusercontent.com/u/101329794?s=400&u=78582c9dc52f7f002cc24841acc7ec7fdeead52d&v=4" width="100" title="Kaushik Gokhale"/>
+        <br />
+      </a>
+    </td>
     <td>
       <a href="https://github.com/alok-nakhate">
         <img src="https://avatars.githubusercontent.com/u/99717383?s=100v=4" width="100" title="Alok Nakhate"/>
@@ -392,7 +401,7 @@ Thanks goes to these wonderful people and Wai technology.
         <img src="https://avatars.githubusercontent.com/u/99784764?v=4" width="100" title="prasad deshmukh"/>
         <br />
       </a>
-    </td>                                                                                                                                 <td>
+    </td>                                                                                               <td>
       <a href="https://github.com/raghavnaphade">
         <img src="https://avatars.githubusercontent.com/u/84921664?v=4" width="100" title="raghav naphade"/>
         <br />
