@@ -55,7 +55,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && node-sass src/styles/default.scss build/styles/default.css",
+    "build": "react-scripts build && sass src/styles/default.scss build/styles/default.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
