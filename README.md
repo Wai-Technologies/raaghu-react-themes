@@ -21,17 +21,16 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/badge/license-MIT-orange)](https://github.com/Wai-Technologies/raaghu-react/blob/production/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/Wai-Technologies/raaghu-react?style=social)](https://github.com/Wai-Technologies/raaghu-react/stargazers)
-![Design System Version](https://img.shields.io/github/v/release/Wai-Technologies/raaghu-react)
-[![GitHub issues](https://img.shields.io/github/issues/Wai-Technologies/raaghu-react)](https://github.com/Wai-Technologies/raaghu-react/issues)
-[![GitHub forks](https://img.shields.io/github/forks/Wai-Technologies/raaghu-react?style=social)](https://github.com/Wai-Technologies/raaghu-react/network/members)
-[![GitHub contributors](https://img.shields.io/github/contributors/Wai-Technologies/raaghu-react)](https://github.com/Wai-Technologies/raaghu-react/graphs/contributors)
+[![License](https://img.shields.io/badge/license-MIT-orange)](https://github.com/Wai-Technologies/raaghu-react-themes/blob/production/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Wai-Technologies/raaghu-react-themes?style=social)](https://github.com/Wai-Technologies/raaghu-react-themes/stargazers)
+![Design System Version](https://img.shields.io/github/v/release/Wai-Technologies/raaghu-react-themes)
+[![GitHub issues](https://img.shields.io/github/issues/Wai-Technologies/raaghu-react-themes)](https://github.com/Wai-Technologiesraaghu-react-themes/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Wai-Technologies/raaghu-react-themes?style=social)](https://github.com/Wai-Technologies/raaghu-react-themes/network/members)
+[![GitHub contributors](https://img.shields.io/github/contributors/Wai-Technologies/raaghu-react-themes)](https://github.com/Wai-Technologies/raaghu-react-themes/graphs/contributors)
 [![Documentation](https://img.shields.io/badge/Docs-Online-red)](https://react.raaghu.ai/)
-
-[![Build Status](https://img.shields.io/badge/build-passing-purple)](https://github.com/Wai-Technologies/raaghu-react/actions)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Wai-Technologies/raaghu-react)](https://github.com/Wai-Technologies/raaghu-react/commits/main)
-[![GitHub code size](https://img.shields.io/github/languages/code-size/Wai-Technologies/raaghu-react)](https://github.com/Wai-Technologies/raaghu-react)
+[![Build Status](https://img.shields.io/badge/build-passing-purple)](https://github.com/Wai-Technologies/raaghu-react-themes/actions)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Wai-Technologies/raaghu-react-themes)](https://github.com/Wai-Technologies/raaghu-react-themes/commits/main)
+[![GitHub code size](https://img.shields.io/github/languages/code-size/Wai-Technologies/raaghu-react-themes)](https://github.com/Wai-Technologies/raaghu-react-themes)
 
 
 
