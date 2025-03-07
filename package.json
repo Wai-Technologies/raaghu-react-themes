@@ -1,6 +1,6 @@
 {
   "name": "@waiin/raaghu-react-themes",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Themes provides utility functions that are commonly used across Raaghu Projects by Wai Technologies",
   "keywords": [
     "react",
@@ -22,7 +22,7 @@
     "email": "support@waiin.com",
     "url": "https://waiin.com"
   },
-  "homepage": "https://react.raaghu.io",
+  "homepage": "https://react.raaghu.ai",
   "license": "MIT",
   "repository": {
     "type": "git",
